@@ -1,0 +1,210 @@
+@media screen and (min-width:1158px) {
+    .container{
+        width: 1158px ;
+        padding: 0 15px;
+    }
+
+    /* header */
+
+.header-portfolio {
+    z-index: 1;
+}
+
+.header {
+    position: fixed;
+}
+
+.padding-web {
+    margin-right: 76px;
+    padding: 0 0;
+}
+
+/* header-address */
+
+.address {
+    margin-left: auto;
+    gap: 40px;
+    padding: 24px 0;
+    display: flex;
+}
+
+.div{
+    padding-top: 0;
+}
+
+/* hero */
+
+.hero-title {
+    margin-bottom: 48px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--focus-button);
+    max-width: 496px;
+    text-align: center;
+
+}
+
+.button {
+    background-color: var(--text-button);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--focus-button);
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 16px 32px;
+    display: block;
+    min-width: 169px;
+    margin: 0 auto;
+    transition: background-color var(--anim-transition), color var(--anim-transition);
+
+}
+
+.button:hover,
+.button:focus {
+    color: var(--focus-button);
+    background-color: var(--focus-text);
+
+}
+
+    /* first section "Our work" */
+
+.our-work {
+    padding: 120px 0;
+}
+
+.work-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.work-item:not(:last-child) {
+    margin-bottom: 0;
+}
+
+.work-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.work-bg-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    width: 264px;
+    height: 112px;
+    background-color: var(--footer-text);
+    padding: 24px 100px;
+}
+
+.work {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+/* second section "What are we doind" */
+
+.application {
+    padding-bottom: 120px;
+}
+
+.application-title {
+    display: block;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40 / 36);
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-text-color);
+    margin-bottom: 72px;
+}
+
+.application-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.application-item {
+    width: calc((100% - 48px) / 3);
+}
+
+/* third section "Our team" */
+
+.bg-team {
+    padding: 120px 0;
+}
+
+.bg-cards {
+    width: calc((100% - 72px) / 4);
+}
+
+.soc-media-list {
+    display: flex;
+    margin-top: 8px;
+    gap: 24px;
+    justify-content: center;
+}
+
+/* Customers */
+
+.logo-section {
+    padding: 120px 0;
+}
+
+.logo-list {
+    margin-top: 72px;
+    gap: 24px;
+}
+
+.logo-item {
+    width: calc((100% - 120px) / 6);
+}
+
+
+/* footer */
+
+.footer-conteinter {
+    align-items: baseline;
+    display: flex;
+}
+
+.footer {
+    padding: 100px 0;
+
+}
+
+.footer-webstudio {
+    margin-right: 120px;
+}
+
+.footer-content {
+    width: 264px;
+}
+
+
+.subscribe {
+    margin-left: 80px;
+}
+
+.subscribe-form {
+    margin-right: 24px;
+}
+
+.subscribe-input {
+    padding: 8px 16px;
+}
+
+
+}
