@@ -92,43 +92,9 @@
 /* hero */
 
 .hero-title {
-    margin-bottom: 48px;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 36px;
     font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: var(--focus-button);
-    max-width: 496px;
-    text-align: center;
-
-}
-
-.button {
-    background-color: var(--text-button);
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--focus-button);
-    cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    padding: 16px 32px;
-    display: block;
-    min-width: 169px;
-    margin: 0 auto;
-    transition: background-color var(--anim-transition),  color var(--anim-transition);
-
-}
-
-.button:hover,
-.button:focus {
-    color: var(--focus-button);
-    background-color: var(--focus-text);
-
+    line-height: calc(60 / 56);
 }
 
   /* first section "Our work" */
