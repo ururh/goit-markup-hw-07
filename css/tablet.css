@@ -4,6 +4,9 @@
     }
 
 /* header */
+.flex{
+    padding: 0;
+}
 
 .header {
     padding:0;
@@ -98,6 +101,9 @@
 }
 
   /* first section "Our work" */
+.work{
+    text-align: left;
+}
 
 .work-list {
     display: flex;
@@ -132,6 +138,10 @@
     flex-wrap: wrap;
     gap: 64px 24px;
     justify-content: center;
+}
+
+.work-item:not(:last-child) {
+    margin-bottom: 0;
 }
 
 /* Customers */
@@ -191,6 +201,9 @@
     width: 264px;
 }
 
-
+.modal {
+    width: 408px;
+    max-height: 584px;
+}
 
 }

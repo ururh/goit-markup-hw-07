@@ -143,6 +143,10 @@
     display: flex;
 }
 
+.footer-soc-media{
+    margin-bottom: 0;
+}
+
 .footer {
     padding: 100px 0;
 
@@ -150,6 +154,7 @@
 
 .footer-webstudio {
     margin-right: 120px;
+    margin-bottom: 0;
 }
 
 .footer-content {

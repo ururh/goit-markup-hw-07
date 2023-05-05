@@ -375,7 +375,6 @@ margin-bottom: 72px;
 
 .subscribe-input {
     width: 100%;
-    max-width: 396px;
     height: 40px;
     background-color: var(--title-text-color);
     border: 1px solid var(--focus-button);
@@ -556,8 +555,8 @@ bottom: 40px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 408px;
-    min-height: 584px;
+    width: 392px;
+    max-height: 584px;
     background-color: var(--modal);
     transition: transform var(--anim-transition);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -767,6 +766,115 @@ bottom: 40px;
     border-color: transparent;
     color: var(--footer-text);
 }
+
+/* =====Portfolio===== */
+
+/* main section buttons */
+
+.filtrs {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.buttons-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.buttons {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--text-button);
+    background-color: var(--footer-text);
+    cursor: pointer;
+    font-family: inherit;
+    border: 1px solid var(--background-button);
+    border-radius: 4px;
+    padding: 12px 24px;
+    transition: color var(--anim-transition), background-color var(--anim-transition), border var(--anim-transition), box-shadow var(--anim-transition);
+}
+
+.buttons:hover,
+.buttons:focus {
+    color: var(--focus-button);
+    background-color: var(--focus-text);
+    border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* cards section */
+
+.app-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+}
+
+.app-link {
+    display: block;
+    transition: box-shadow var(--anim-transition);
+}
+
+.app-title {
+    padding: 32px 16px;
+    border: 1px solid var(--background-button);
+    border-top: none;
+}
+
+.app-link:hover,
+.app-link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.app-link:hover .overlay,
+.app-link:focus .overlay {
+    transform: translateY(0%);
+}
+
+.app-item {
+    flex-basis: calc((100% - 24px * 2) / 3);
+}
+
+.product-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    margin-bottom: 8px;
+
+}
+
+.thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    letter-spacing: 0.02em;
+    color: var(--footer-text);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--text-button);
+    padding: 40px 32px;
+    transform: translateY(100%);
+    transition: transform var(--anim-transition);
+}
+
+
+
+
 
 @media screen and(min-width:428px) {
     .container{
