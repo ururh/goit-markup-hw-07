@@ -210,4 +210,37 @@
     max-height: 584px;
 }
 
+/* =====Portfolio===== */
+
+/* main section buttons */
+
+.filtrs {
+    padding-top: 96px;
+    padding-bottom: 64px;
+}
+
+.buttons-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+/* cards section */
+
+.app-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 72px;
+}
+
+.app-item:not(:last-child) {
+    margin-bottom: 0;
+}
+
+.app-item {
+    flex-basis: calc((100% - 32px) / 2);
+}
+
 }

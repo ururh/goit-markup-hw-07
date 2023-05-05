@@ -179,5 +179,67 @@
     padding: 8px 16px;
 }
 
+/* =====Portfolio===== */
+
+/* main section buttons */
+
+.filtrs {
+    padding-bottom: 120px;
+}
+
+.buttons-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+/* cards section */
+
+.app-list {
+    row-gap: 48px;
+}
+
+.app-link:hover .overlay,
+.app-link:focus .overlay {
+    transform: translateY(0%);
+}
+
+.app-item {
+    flex-basis: calc((100% - 24px * 2) / 3);
+}
+
+.product-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    margin-bottom: 8px;
+
+}
+
+.thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    display: block;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    letter-spacing: 0.02em;
+    color: var(--footer-text);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--text-button);
+    padding: 40px 32px;
+    transform: translateY(100%);
+    transition: transform var(--anim-transition);
+}
 
 }

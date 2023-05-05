@@ -459,6 +459,18 @@ font-weight: 700;
         color: var(--focus-text);
 }
 
+@media screen and (min-width:320) {
+    .burger-contact {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: calc(40 / 25);
+
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--focus-text);
+    }
+}
+
 .burger-adress{
     font-weight: 500;
         font-size: 20px;
@@ -772,15 +784,14 @@ bottom: 40px;
 /* main section buttons */
 
 .filtrs {
-    padding-top: 96px;
-    padding-bottom: 120px;
+    padding:48px 0;
 }
 
 .buttons-list {
     display: flex;
-    gap: 24px;
-    justify-content: center;
-    margin-bottom: 72px;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    margin-bottom: 48px;
 }
 
 .buttons {
@@ -794,7 +805,7 @@ bottom: 40px;
     font-family: inherit;
     border: 1px solid var(--background-button);
     border-radius: 4px;
-    padding: 12px 24px;
+    padding: 8px 16px;
     transition: color var(--anim-transition), background-color var(--anim-transition), border var(--anim-transition), box-shadow var(--anim-transition);
 }
 
@@ -808,11 +819,8 @@ bottom: 40px;
 
 /* cards section */
 
-.app-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    row-gap: 48px;
+.app-item:not(:last-child){
+    margin-bottom: 48px;
 }
 
 .app-link {
@@ -831,15 +839,6 @@ bottom: 40px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.app-link:hover .overlay,
-.app-link:focus .overlay {
-    transform: translateY(0%);
-}
-
-.app-item {
-    flex-basis: calc((100% - 24px * 2) / 3);
-}
-
 .product-title {
     font-weight: 500;
     font-size: 20px;
@@ -850,31 +849,9 @@ bottom: 40px;
 
 }
 
-.thumb {
-    position: relative;
-    overflow: hidden;
-}
-
 .overlay {
-    font-size: 16px;
-    line-height: calc(24 / 16);
-    letter-spacing: 0.02em;
-    color: var(--footer-text);
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--text-button);
-    padding: 40px 32px;
-    transform: translateY(100%);
-    transition: transform var(--anim-transition);
+    display: none;
 }
-
-
-
-
 
 @media screen and(min-width:428px) {
     .container{
