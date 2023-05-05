@@ -145,17 +145,31 @@
                 src="./images/Rectangle_1.jpg"
                 alt="Application development"
                 width="360"
+                srcset="
+                    ./images/Rectangle_1.jpg              1x,
+                    ./images/desktop/app-1@2x.jpg 2x
+                  "
               />
+             
             </li>
             <li class="application-item">
               <img
                 src="./images/Rectangle_2.jpg"
                 alt="Mobile applications"
                 width="360"
+                srcset="
+                    ./images/Rectangle_1.jpg              1x,
+                    ./images/desktop/app-2@2x.jpg 2x
+                  " 
               />
+              
             </li>
             <li class="application-item">
-              <img src="./images/Rectangle_3.jpg" alt="Sites" width="360" />
+              <img src="./images/Rectangle_3.jpg" alt="Sites" width="360" srcset="
+                    ./images/Rectangle_1.jpg              1x,
+                    ./images/desktop/app-3@2x.jpg 2x
+                  "  />
+            
             </li>
           </ul>
         </div>
@@ -171,7 +185,12 @@
                 src="./images/mark.jpg"
                 alt="Photo Mark"
                 width="264"
+                srcset="
+                    ./images/mark.jpg              1x,
+                    ./images/team-2x/team-1@2x.jpg 2x
+                  " 
               />
+        
               <div class="card-name">
                 <h3 class="worker">Mark Guerrero</h3>
                 <p class="subtitle">Product Designer</p>
@@ -225,6 +244,10 @@
                 src="./images/tom.jpg"
                 alt="Photo Tom"
                 width="264"
+                srcset="
+                    ./images/tom.jpg              1x,
+                    ./images/team-2x/team-2@2x.jpg 2x
+                  " 
               />
               <div class="card-name">
                 <h3 class="worker">Tom Ford</h3>
@@ -279,7 +302,12 @@
                 src="./images/camila.jpg"
                 alt="Photo Camila"
                 width="264"
+                srcset="
+                    ./images/camila.jpg              1x,
+                    ./images/team-2x/team-3@2x.jpg 2x
+                  " 
               />
+          
               <div class="card-name">
                 <h3 class="worker">Camila Garcia</h3>
                 <p class="subtitle">Marketing</p>
@@ -333,7 +361,12 @@
                 src="./images/daniel.jpg"
                 alt="Photo Daniel"
                 width="264"
+                srcset="
+                    ./images/daniel.jpg              1x,
+                    ./images/team-2x/team-4@2x.jpg 2x
+                  " 
               />
+            
               <div class="card-name">
                 <h3 class="worker">Daniel Wilson</h3>
                 <p class="subtitle">UI Designer</p>
@@ -586,7 +619,7 @@
           <button class="modal-form-btn" type="submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
 
     <svg class="" width="32" height="22">
       <use href="./img/icons.svg#icon-burger"></use>
@@ -599,7 +632,7 @@
       </button>
       <ul class="menu-mob">
         <li class="menu-item">
-          <a class="menu-title" href="./index.html">Studio</a>
+          <a class="menu-title-main" href="./index.html">Studio</a>
         </li>
         <li class="menu-item">
           <a class="menu-title" href="./portfolio.html">Portfolio</a>
@@ -607,6 +640,7 @@
         <li class="menu-item"><a class="menu-title" href="">Contacts</a></li>
       </ul>
 
+      <div class="down">
       <ul class="menu-adress">
         <li class="menu-item">
           <a class="burger-contact" href="tel:110001111111"
@@ -649,6 +683,7 @@
           </a>
         </li>
       </ul>
+    </div>
     </div>
 
     <script src="./js/menu.js"></script>

@@ -12,7 +12,7 @@
     padding: 24px 0;
     top: 0;
     left: 0;
-    background-color: var(--footer-text);
+    background-color: #FFFFFF;
     border-bottom: 1px solid var(--background-button);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -143,7 +143,7 @@
 
 .bg-team {
     background-color: var(--footer-text);
-    padding: 96px 82px;
+    padding: 96px 0;
 }
 
 .ourteam-title{
@@ -427,6 +427,15 @@ margin-bottom: 72px;
 }
 
 /* menu */
+.menu-title-main{
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--focus-text);
+}
+
 .menu-title{
     font-weight: 700;
         font-size: 36px;
@@ -434,12 +443,6 @@ margin-bottom: 72px;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color:var(--title-text-color);
-        transition: color var(--anim-transition);
-}
-
-.menu-title:hover,
-.menu-title:focus{
-    color: var(--focus-text);
 }
 
 .menu-item:not(:last-child){
@@ -487,10 +490,6 @@ margin-bottom: 72px;
     opacity: 1;
 }
 
-.menu-mob {
-    margin-bottom: 284px;
-}
-
 .menu-adress {
     margin-bottom: 48px;
 }
@@ -504,6 +503,12 @@ margin-bottom: 72px;
 
 .menu-media:not(:last-child){
 margin-right: 56px;
+}
+
+.down{
+    position: absolute;
+left: 40px;
+bottom: 40px;
 }
 
 .close-menu {
