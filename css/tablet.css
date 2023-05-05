@@ -116,12 +116,11 @@
 
 /* third section "Our team" */
 
-.bg-team {
-    padding: 98px 108px;
-}
+
 
 .bg-cards {
     width: calc((100% - 216px) / 2);
+    margin: 0;
 }
 
 .bg-cards:not(:last-child) {
@@ -136,10 +135,6 @@
 }
 
 /* Customers */
-
-.logo-section {
-    padding: 96px 108px;
-}
 
 .logo-title {
     font-weight: 700;
