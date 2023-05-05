@@ -65,13 +65,16 @@
 
 /* header-address */
 
-.address {
-    margin-left: 122px;
+.flex {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+
 }
 
-.div{
+/* .div{
     padding-top: 16px;
-}
+} */
 .addr-nav {
     display: block;
     font-style: normal;
@@ -146,6 +149,10 @@
 
 /* Customers */
 
+.logo-section{
+    padding: 96px 0px;
+}
+
 .logo-title {
     font-weight: 700;
     font-size: 36px;
@@ -169,16 +176,13 @@
 
 
 /* footer */
-
+.footer-flex{
+    display: flex;
+}
 
 .footer-webstudio {
     margin-right: 24px;
     text-align: left;
-}
-
-
-.flex{
-    display: flex;
 }
 
 .footer-content {

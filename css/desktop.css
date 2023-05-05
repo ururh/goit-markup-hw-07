@@ -22,6 +22,11 @@
     display: flex;
 }
 
+.addr-nav{
+    margin-left: auto;
+    margin-right: 0;
+}
+
 .div{
     padding-top: 0;
 }
