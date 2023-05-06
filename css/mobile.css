@@ -317,9 +317,10 @@ margin-bottom: 72px;
     width: 264px;
     font-size: 16px;
     line-height: calc(24 / 16);
-    text-align: center;
+    text-align: left;
     display: block;
     margin: 0 auto;
+
 }
 
 .footer-media {
@@ -452,14 +453,13 @@ font-weight: 700;
 .burger-contact{
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11px;
-    
+        line-height: calc(40 / 36);
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--focus-text);
 }
 
-@media screen and (min-width:320) {
+@media screen and (max-width:420) {
     .burger-contact {
         font-weight: 500;
         font-size: 25px;
@@ -513,14 +513,14 @@ font-weight: 700;
     justify-content:space-between ;
 }
 
-/* .menu-media:not(:last-child){
-margin-right: 56px;
-} */
+.burger-icon{
+    stroke: var(--title-text-color);
+}
 
-.down{
-    position: absolute;
-left: 40px;
-bottom: 40px;
+.position{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
 }
 
 .close-menu {
@@ -567,8 +567,9 @@ bottom: 40px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 392px;
-    max-height: 584px;
+
+    width: 90%;
+    height: 584px;
     background-color: var(--modal);
     transition: transform var(--anim-transition);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -734,6 +735,7 @@ bottom: 40px;
     letter-spacing: 0.04em;
     color: var(--logo);
     margin-left: 8px;
+    margin-top: 16px;
 }
 
 .modal-link {

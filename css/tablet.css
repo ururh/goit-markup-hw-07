@@ -4,9 +4,6 @@
     }
 
 /* header */
-.flex{
-    padding: 0;
-}
 
 .header {
     padding:0;
@@ -75,6 +72,15 @@
 /* .div{
     padding-top: 16px;
 } */
+
+.burger{
+    display: none;
+}
+ 
+.menu-none{
+    display: none;
+}
+
 .addr-nav {
     display: block;
     font-style: normal;
@@ -176,6 +182,14 @@
 
 
 /* footer */
+.footer{
+padding: 0;
+}
+
+.footer-conteinter{
+    padding: 108px;
+}
+
 .footer-flex{
     display: flex;
 }

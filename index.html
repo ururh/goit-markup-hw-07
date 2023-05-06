@@ -33,12 +33,13 @@
           <a href="./index.html" class="web padding-web"
             >Web<span class="table-studio">Studio</span></a
           >
-
-          <button type="button" class="burger js-open-menu">
-            <svg class="burger-icon" width="32" height="22">
-              <use href="./images/icons.svg#icon-burger"></use>
-            </svg>
-          </button>
+          <div class="menu-none">
+            <button type="button" class="burger js-open-menu">
+              <svg class="burger-icon" width="32" height="22">
+                <use href="./images/icons.svg#icon-burger"></use>
+              </svg>
+            </button>
+          </div>
 
           <ul class="nav">
             <li class="nav-item">
@@ -552,6 +553,7 @@
         </div>
       </div>
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="close-btn" data-modal-close>
@@ -615,85 +617,72 @@
       </div>
     </div>
 
-    <svg class="" width="32" height="22">
-      <use href="./img/icons.svg#icon-burger"></use>
-    </svg>
-    <div class="mobile-menu js-menu-container">
+    <div class="mobile-menu js-menu-container position">
       <button class="close-menu js-close-menu" type="button">
         <svg class="close-color" width="8" height="8">
           <use class="close-icon" href="./images/icons.svg#icon-closed"></use>
         </svg>
       </button>
-      <div>
-        <div>
-          <ul class="menu-mob">
-            <li class="menu-item">
-              <a class="menu-title-main" href="./index.html">Studio</a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-title" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-title" href="">Contacts</a>
-            </li>
-          </ul>
-        </div>
-        <div class="down">
-          <ul class="menu-adress">
-            <li class="menu-item">
-              <a class="burger-contact" href="tel:110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-            <li class="menu-item">
-              <a class="burger-adress" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-          </ul>
-          <ul class="menu-media-list">
-            <li class="menu-media">
-              <a href="" class="social-link" aria-label="Go to instagram">
-                <svg class="icon-bg" width="24" height="24">
-                  <use
-                    class="icon"
-                    href="./images/icons.svg#icon-instagram"
-                  ></use>
-                </svg>
-              </a>
-            </li>
-            <li class="menu-media">
-              <a href="" class="social-link" aria-label="Go to twitter">
-                <svg class="icon-bg" width="24" height="24">
-                  <use
-                    class="icon"
-                    href="./images/icons.svg#icon-twitter"
-                  ></use>
-                </svg>
-              </a>
-            </li>
-            <li class="menu-media">
-              <a href="" class="social-link" aria-label="Go to facebook">
-                <svg class="icon-bg" width="24" height="24">
-                  <use
-                    class="icon"
-                    href="./images/icons.svg#icon-facebook"
-                  ></use>
-                </svg>
-              </a>
-            </li>
-            <li class="menu-media">
-              <a href="" class="social-link" aria-label="Go to linkedin">
-                <svg class="icon-bg" width="24" height="24">
-                  <use
-                    class="icon"
-                    href="./images/icons.svg#icon-linkedin"
-                  ></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
+
+      <div class="menu">
+        <ul class="menu-mob">
+          <li class="menu-item">
+            <a class="menu-title-main" href="./index.html">Studio</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-title" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-title" href="">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <div class="down">
+        <ul class="menu-adress">
+          <li class="menu-item">
+            <a class="burger-contact" href="tel:110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="menu-item">
+            <a class="burger-adress" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="menu-media-list">
+          <li class="menu-media">
+            <a href="" class="social-link" aria-label="Go to instagram">
+              <svg class="icon-bg" width="24" height="24">
+                <use
+                  class="icon"
+                  href="./images/icons.svg#icon-instagram"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-media">
+            <a href="" class="social-link" aria-label="Go to twitter">
+              <svg class="icon-bg" width="24" height="24">
+                <use class="icon" href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-media">
+            <a href="" class="social-link" aria-label="Go to facebook">
+              <svg class="icon-bg" width="24" height="24">
+                <use class="icon" href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-media">
+            <a href="" class="social-link" aria-label="Go to linkedin">
+              <svg class="icon-bg" width="24" height="24">
+                <use class="icon" href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
 

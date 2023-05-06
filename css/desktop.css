@@ -80,6 +80,10 @@
     line-height: 1.2;
 }
 
+.article{
+    font-weight: 400;
+}
+
 /* second section "What are we doind" */
 
 .application {
